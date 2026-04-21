@@ -1,6 +1,6 @@
 CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj: \
  D:\QtProject\MomentWise\build\MomentWise_autogen\mocs_compilation.cpp \
- D:\QtProject\MomentWise\build\MomentWise_autogen\UVLADIE3JM/moc_AudioRecorder.cpp \
+ D:\QtProject\MomentWise\build\MomentWise_autogen\UVLADIE3JM/moc_HotkeyManager_win.cpp \
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/memory \
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++config.h \
@@ -130,10 +130,9 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj: \
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
- D:/QtProject/MomentWise/src/AudioRecorder.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QObject \
- D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qobject.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qobjectdefs.h \
+ D:/QtProject/MomentWise/src/HotkeyManager_win.h \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractNativeEventFilter \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qabstractnativeeventfilter.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qnamespace.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qglobal.h \
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstddef \
@@ -160,6 +159,9 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj: \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qglobalstatic.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qnumeric.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qversiontagging.h \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QObject \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qobject.h \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qobjectdefs.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qobjectdefs_impl.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qstring.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qchar.h \
@@ -242,10 +244,6 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj: \
  D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/_timeval.h \
  D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/pthread_time.h \
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h \
- D:\QtProject\MomentWise\build\MomentWise_autogen\UVLADIE3JM/moc_HotkeyManager_win.cpp \
- D:/QtProject/MomentWise/src/HotkeyManager_win.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractNativeEventFilter \
- D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qabstractnativeeventfilter.h \
  D:\QtProject\MomentWise\build\MomentWise_autogen\UVLADIE3JM/moc_MainWindow.cpp \
  D:/QtProject/MomentWise/src/MainWindow.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QMainWindow \
@@ -354,8 +352,6 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj: \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qrubberband.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qabstractitemmodel.h \
- D:\QtProject\MomentWise\build\MomentWise_autogen\UVLADIE3JM/moc_TodoDueDelegate.cpp \
- D:/QtProject/MomentWise/src/TodoDueDelegate.h \
  D:\QtProject\MomentWise\build\MomentWise_autogen\UVLADIE3JM/moc_TodoModel.cpp \
  D:/QtProject/MomentWise/src/TodoModel.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractTableModel \
@@ -369,7 +365,5 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj: \
  D:/QtProject/MomentWise/src/ui/BottomNav.h \
  D:\QtProject\MomentWise\build\MomentWise_autogen\YPKJ5OE7LN/moc_BreathingRing.cpp \
  D:/QtProject/MomentWise/src/ui/BreathingRing.h \
- D:\QtProject\MomentWise\build\MomentWise_autogen\YPKJ5OE7LN/moc_CustomStatusBar.cpp \
- D:/QtProject/MomentWise/src/ui/CustomStatusBar.h \
  D:\QtProject\MomentWise\build\MomentWise_autogen\YPKJ5OE7LN/moc_HeaderWidget.cpp \
  D:/QtProject/MomentWise/src/ui/HeaderWidget.h

@@ -15,7 +15,6 @@ class QDateEdit;
 class QPropertyAnimation;
 class QGraphicsOpacityEffect;
 
-class AudioRecorder;
 class PomodoroController;
 class MiniBallWidget;
 class TrayManager;
@@ -24,7 +23,6 @@ class StatsStore;
 class HotkeyManagerWin;
 class HeaderWidget;
 class BottomNav;
-class CustomStatusBar;
 
 class MainWindow : public QMainWindow
 {
@@ -41,10 +39,6 @@ private slots:
     void onPomodoroStateChanged();
     void onPomodoroFinished();
 
-    void onAddTodo();
-    void onRemoveTodo();
-    void onToggleTodoDone();
-
     void applyWindowPins();
     void applyWindowOpacity();
     void applyLocale();
@@ -56,7 +50,7 @@ private:
     void buildUi();
     void updatePomodoroUi();
     void updateStatsUi();
-    void animatePageTransition(int fromIndex, int toIndex);
+    void animatePageTransition(int toIndex);
     static QString fmtTime(int seconds);
 
     PomodoroController* m_pomodoro{nullptr};
@@ -97,11 +91,6 @@ private:
     QLabel* m_statsRangeDays{nullptr};
     QLabel* m_statsFocusPerDay{nullptr};
     QLabel* m_statsDonePerDay{nullptr};
-
-    // Settings tab
-    QCheckBox* m_chkTop{nullptr};
-    QSlider* m_opacity{nullptr};
-    QComboBox* m_locale{nullptr};
 
     // Animation effects
     QPropertyAnimation* m_pageTransitionAnimation{nullptr};

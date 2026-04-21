@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[15];
-    char stringdata0[224];
+    QByteArrayData data[12];
+    char stringdata0[184];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,20 +39,16 @@ QT_MOC_LITERAL(3, 27, 9), // "remaining"
 QT_MOC_LITERAL(4, 37, 5), // "total"
 QT_MOC_LITERAL(5, 43, 22), // "onPomodoroStateChanged"
 QT_MOC_LITERAL(6, 66, 18), // "onPomodoroFinished"
-QT_MOC_LITERAL(7, 85, 9), // "onAddTodo"
-QT_MOC_LITERAL(8, 95, 12), // "onRemoveTodo"
-QT_MOC_LITERAL(9, 108, 16), // "onToggleTodoDone"
-QT_MOC_LITERAL(10, 125, 15), // "applyWindowPins"
-QT_MOC_LITERAL(11, 141, 18), // "applyWindowOpacity"
-QT_MOC_LITERAL(12, 160, 11), // "applyLocale"
-QT_MOC_LITERAL(13, 172, 20), // "toggleMainVisibility"
-QT_MOC_LITERAL(14, 193, 30) // "togglePomodoroStartPauseResume"
+QT_MOC_LITERAL(7, 85, 15), // "applyWindowPins"
+QT_MOC_LITERAL(8, 101, 18), // "applyWindowOpacity"
+QT_MOC_LITERAL(9, 120, 11), // "applyLocale"
+QT_MOC_LITERAL(10, 132, 20), // "toggleMainVisibility"
+QT_MOC_LITERAL(11, 153, 30) // "togglePomodoroStartPauseResume"
 
     },
     "MainWindow\0onPomodoroTick\0\0remaining\0"
     "total\0onPomodoroStateChanged\0"
-    "onPomodoroFinished\0onAddTodo\0onRemoveTodo\0"
-    "onToggleTodoDone\0applyWindowPins\0"
+    "onPomodoroFinished\0applyWindowPins\0"
     "applyWindowOpacity\0applyLocale\0"
     "toggleMainVisibility\0"
     "togglePomodoroStartPauseResume"
@@ -65,7 +61,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -73,23 +69,17 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   69,    2, 0x08 /* Private */,
-       5,    0,   74,    2, 0x08 /* Private */,
-       6,    0,   75,    2, 0x08 /* Private */,
-       7,    0,   76,    2, 0x08 /* Private */,
-       8,    0,   77,    2, 0x08 /* Private */,
-       9,    0,   78,    2, 0x08 /* Private */,
-      10,    0,   79,    2, 0x08 /* Private */,
-      11,    0,   80,    2, 0x08 /* Private */,
-      12,    0,   81,    2, 0x08 /* Private */,
-      13,    0,   82,    2, 0x08 /* Private */,
-      14,    0,   83,    2, 0x08 /* Private */,
+       1,    2,   54,    2, 0x08 /* Private */,
+       5,    0,   59,    2, 0x08 /* Private */,
+       6,    0,   60,    2, 0x08 /* Private */,
+       7,    0,   61,    2, 0x08 /* Private */,
+       8,    0,   62,    2, 0x08 /* Private */,
+       9,    0,   63,    2, 0x08 /* Private */,
+      10,    0,   64,    2, 0x08 /* Private */,
+      11,    0,   65,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::Int, QMetaType::Int,    3,    4,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -110,14 +100,11 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 0: _t->onPomodoroTick((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 1: _t->onPomodoroStateChanged(); break;
         case 2: _t->onPomodoroFinished(); break;
-        case 3: _t->onAddTodo(); break;
-        case 4: _t->onRemoveTodo(); break;
-        case 5: _t->onToggleTodoDone(); break;
-        case 6: _t->applyWindowPins(); break;
-        case 7: _t->applyWindowOpacity(); break;
-        case 8: _t->applyLocale(); break;
-        case 9: _t->toggleMainVisibility(); break;
-        case 10: _t->togglePomodoroStartPauseResume(); break;
+        case 3: _t->applyWindowPins(); break;
+        case 4: _t->applyWindowOpacity(); break;
+        case 5: _t->applyLocale(); break;
+        case 6: _t->toggleMainVisibility(); break;
+        case 7: _t->togglePomodoroStartPauseResume(); break;
         default: ;
         }
     }
@@ -152,13 +139,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 8)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 11;
+        _id -= 8;
     }
     return _id;
 }

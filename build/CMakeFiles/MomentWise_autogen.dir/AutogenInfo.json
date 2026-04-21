@@ -99,12 +99,6 @@
 			null
 		],
 		[
-			"D:/QtProject/MomentWise/src/AudioRecorder.h",
-			"Mu",
-			"UVLADIE3JM/moc_AudioRecorder.cpp",
-			null
-		],
-		[
 			"D:/QtProject/MomentWise/src/Database.h",
 			"Mu",
 			"UVLADIE3JM/moc_Database.cpp",
@@ -153,12 +147,6 @@
 			null
 		],
 		[
-			"D:/QtProject/MomentWise/src/TodoDueDelegate.h",
-			"Mu",
-			"UVLADIE3JM/moc_TodoDueDelegate.cpp",
-			null
-		],
-		[
 			"D:/QtProject/MomentWise/src/TodoModel.h",
 			"Mu",
 			"UVLADIE3JM/moc_TodoModel.cpp",
@@ -186,12 +174,6 @@
 			"D:/QtProject/MomentWise/src/ui/BreathingRing.h",
 			"Mu",
 			"YPKJ5OE7LN/moc_BreathingRing.cpp",
-			null
-		],
-		[
-			"D:/QtProject/MomentWise/src/ui/CustomStatusBar.h",
-			"Mu",
-			"YPKJ5OE7LN/moc_CustomStatusBar.cpp",
 			null
 		],
 		[
@@ -273,7 +255,6 @@
 	"SOURCES" : 
 	[
 		[ "D:/QtProject/MomentWise/src/AppConfig.cpp", "Mu", null ],
-		[ "D:/QtProject/MomentWise/src/AudioRecorder.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/Database.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/HotkeyManager_win.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/MainWindow.cpp", "Mu", null ],
@@ -282,14 +263,12 @@
 		[ "D:/QtProject/MomentWise/src/QuoteProvider.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/StatsStore.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/TodoCardDelegate.cpp", "Mu", null ],
-		[ "D:/QtProject/MomentWise/src/TodoDueDelegate.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/TodoModel.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/TrayManager.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/main.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/ui/AcrylicBlur_win.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/ui/BottomNav.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/ui/BreathingRing.cpp", "Mu", null ],
-		[ "D:/QtProject/MomentWise/src/ui/CustomStatusBar.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/ui/HeaderWidget.cpp", "Mu", null ],
 		[ "D:/QtProject/MomentWise/src/ui/Theme.cpp", "Mu", null ]
 	],

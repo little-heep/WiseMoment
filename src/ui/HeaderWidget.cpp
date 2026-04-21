@@ -19,7 +19,7 @@ static QToolButton* makeIconButton(const QString& text, QWidget* parent)
     b->setText(text);
     b->setCursor(Qt::PointingHandCursor);
     b->setToolButtonStyle(Qt::ToolButtonTextOnly);
-    b->setFixedSize(36, 36);
+    b->setFixedSize(56, 56);
     return b;
 }
 
@@ -39,23 +39,28 @@ HeaderWidget::HeaderWidget(QWidget* parent)
     top->addWidget(m_title);
     top->addStretch(1);
 
-    m_pin = makeIconButton(QStringLiteral("⌂"), this);
+    m_pin = makeIconButton(QStringLiteral("↑"), this);
+    m_pin->setObjectName("pinBtn");
     m_pin->setToolTip(tr("置顶窗口"));
     top->addWidget(m_pin);
 
-    m_ball = makeIconButton(QStringLiteral("◉"), this);
+    m_ball = makeIconButton(QStringLiteral("O"), this);
+    m_ball->setObjectName("ballBtn");
     m_ball->setToolTip(tr("切换小窗模式"));
     top->addWidget(m_ball);
 
-    m_settings = makeIconButton(QStringLiteral("☰"), this);
+    m_settings = makeIconButton(QStringLiteral("⚙"), this);
+    m_settings->setObjectName("settingsBtn");
     m_settings->setToolTip(tr("更多设置"));
     top->addWidget(m_settings);
 
-    m_min = makeIconButton(QStringLiteral("—"), this);
+    m_min = makeIconButton(QStringLiteral("-"), this);
+    m_min->setObjectName("minBtn");
     m_min->setToolTip(tr("最小化窗口"));
     top->addWidget(m_min);
 
-    m_close = makeIconButton(QStringLiteral("×"), this);
+    m_close = makeIconButton(QStringLiteral("X"), this);
+    m_close->setObjectName("closeBtn");
     m_close->setToolTip(tr("关闭到托盘"));
     top->addWidget(m_close);
 
@@ -72,12 +77,13 @@ HeaderWidget::HeaderWidget(QWidget* parent)
             background: transparent;
         }
         QWidget#HeaderWidget QToolButton {
-            font-size: 16px;
-            font-weight: 600;
-            border-radius: 18px;
+            font-size: 28px;
+            font-weight: 700;
+            border-radius: 28px;
             color: rgba(86, 63, 44, 220);
             background: rgba(255, 249, 240, 180);
             border: 1px solid rgba(152, 124, 95, 58);
+            padding: 0px;
         }
         QWidget#HeaderWidget QToolButton:hover {
             background: rgba(252, 242, 230, 230);
@@ -86,7 +92,7 @@ HeaderWidget::HeaderWidget(QWidget* parent)
         QWidget#HeaderWidget QToolButton:pressed {
             background: rgba(170, 55, 42, 40);
         }
-        QWidget#HeaderWidget QToolButton[text="◉"] {
+        QWidget#HeaderWidget QToolButton#ballBtn {
             color: rgba(170, 55, 42, 230);
         }
         QWidget#HeaderWidget QLabel[role="muted"] {
@@ -113,7 +119,7 @@ HeaderWidget::HeaderWidget(QWidget* parent)
 
 void HeaderWidget::setPinned(bool on)
 {
-    m_pin->setText(on ? QStringLiteral("⬆") : QStringLiteral("⌂"));
+    m_pin->setText(QStringLiteral("↑"));
     m_pin->setToolTip(on ? tr("已置顶窗口") : tr("置顶窗口"));
 }
 

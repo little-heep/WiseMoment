@@ -144,26 +144,11 @@ CMakeFiles/MomentWise.dir/src/Database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MomentWise.dir/src/Database.cpp.s"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QtProject\MomentWise\src\Database.cpp -o CMakeFiles\MomentWise.dir\src\Database.cpp.s
 
-CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj: CMakeFiles/MomentWise.dir/flags.make
-CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
-CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj: D:/QtProject/MomentWise/src/AudioRecorder.cpp
-CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj -MF CMakeFiles\MomentWise.dir\src\AudioRecorder.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\AudioRecorder.cpp.obj -c D:\QtProject\MomentWise\src\AudioRecorder.cpp
-
-CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.i"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QtProject\MomentWise\src\AudioRecorder.cpp > CMakeFiles\MomentWise.dir\src\AudioRecorder.cpp.i
-
-CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.s"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QtProject\MomentWise\src\AudioRecorder.cpp -o CMakeFiles\MomentWise.dir\src\AudioRecorder.cpp.s
-
 CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: CMakeFiles/MomentWise.dir/flags.make
 CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: D:/QtProject/MomentWise/src/MainWindow.cpp
 CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj -MF CMakeFiles\MomentWise.dir\src\MainWindow.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\MainWindow.cpp.obj -c D:\QtProject\MomentWise\src\MainWindow.cpp
 
 CMakeFiles/MomentWise.dir/src/MainWindow.cpp.i: cmake_force
@@ -178,7 +163,7 @@ CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj: CMakeFiles/MomentWise.dir/fla
 CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj: D:/QtProject/MomentWise/src/TrayManager.cpp
 CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj -MF CMakeFiles\MomentWise.dir\src\TrayManager.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\TrayManager.cpp.obj -c D:\QtProject\MomentWise\src\TrayManager.cpp
 
 CMakeFiles/MomentWise.dir/src/TrayManager.cpp.i: cmake_force
@@ -193,7 +178,7 @@ CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj: CMakeFiles/MomentWise.
 CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj: D:/QtProject/MomentWise/src/PomodoroController.cpp
 CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj -MF CMakeFiles\MomentWise.dir\src\PomodoroController.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\PomodoroController.cpp.obj -c D:\QtProject\MomentWise\src\PomodoroController.cpp
 
 CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.i: cmake_force
@@ -208,7 +193,7 @@ CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj: CMakeFiles/MomentWise.dir/
 CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj: D:/QtProject/MomentWise/src/MiniBallWidget.cpp
 CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj -MF CMakeFiles\MomentWise.dir\src\MiniBallWidget.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\MiniBallWidget.cpp.obj -c D:\QtProject\MomentWise\src\MiniBallWidget.cpp
 
 CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.i: cmake_force
@@ -223,7 +208,7 @@ CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj: CMakeFiles/MomentWise.dir/flags
 CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj: D:/QtProject/MomentWise/src/TodoModel.cpp
 CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj -MF CMakeFiles\MomentWise.dir\src\TodoModel.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\TodoModel.cpp.obj -c D:\QtProject\MomentWise\src\TodoModel.cpp
 
 CMakeFiles/MomentWise.dir/src/TodoModel.cpp.i: cmake_force
@@ -238,7 +223,7 @@ CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj: CMakeFiles/MomentWise.di
 CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj: D:/QtProject/MomentWise/src/TodoCardDelegate.cpp
 CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj -MF CMakeFiles\MomentWise.dir\src\TodoCardDelegate.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\TodoCardDelegate.cpp.obj -c D:\QtProject\MomentWise\src\TodoCardDelegate.cpp
 
 CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.i: cmake_force
@@ -249,26 +234,11 @@ CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.s"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QtProject\MomentWise\src\TodoCardDelegate.cpp -o CMakeFiles\MomentWise.dir\src\TodoCardDelegate.cpp.s
 
-CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj: CMakeFiles/MomentWise.dir/flags.make
-CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
-CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj: D:/QtProject/MomentWise/src/TodoDueDelegate.cpp
-CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj -MF CMakeFiles\MomentWise.dir\src\TodoDueDelegate.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\TodoDueDelegate.cpp.obj -c D:\QtProject\MomentWise\src\TodoDueDelegate.cpp
-
-CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.i"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QtProject\MomentWise\src\TodoDueDelegate.cpp > CMakeFiles\MomentWise.dir\src\TodoDueDelegate.cpp.i
-
-CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.s"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QtProject\MomentWise\src\TodoDueDelegate.cpp -o CMakeFiles\MomentWise.dir\src\TodoDueDelegate.cpp.s
-
 CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj: CMakeFiles/MomentWise.dir/flags.make
 CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj: D:/QtProject/MomentWise/src/StatsStore.cpp
 CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj -MF CMakeFiles\MomentWise.dir\src\StatsStore.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\StatsStore.cpp.obj -c D:\QtProject\MomentWise\src\StatsStore.cpp
 
 CMakeFiles/MomentWise.dir/src/StatsStore.cpp.i: cmake_force
@@ -283,7 +253,7 @@ CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj: CMakeFiles/MomentWise.dir/f
 CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj: D:/QtProject/MomentWise/src/QuoteProvider.cpp
 CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj -MF CMakeFiles\MomentWise.dir\src\QuoteProvider.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\QuoteProvider.cpp.obj -c D:\QtProject\MomentWise\src\QuoteProvider.cpp
 
 CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.i: cmake_force
@@ -298,7 +268,7 @@ CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj: CMakeFiles/MomentWise.d
 CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj: D:/QtProject/MomentWise/src/HotkeyManager_win.cpp
 CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj -MF CMakeFiles\MomentWise.dir\src\HotkeyManager_win.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\HotkeyManager_win.cpp.obj -c D:\QtProject\MomentWise\src\HotkeyManager_win.cpp
 
 CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.i: cmake_force
@@ -313,7 +283,7 @@ CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj: CMakeFiles/MomentWise.dir
 CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj: D:/QtProject/MomentWise/src/ui/HeaderWidget.cpp
 CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj -MF CMakeFiles\MomentWise.dir\src\ui\HeaderWidget.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\ui\HeaderWidget.cpp.obj -c D:\QtProject\MomentWise\src\ui\HeaderWidget.cpp
 
 CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.i: cmake_force
@@ -328,7 +298,7 @@ CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj: CMakeFiles/MomentWise.dir/fl
 CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj: D:/QtProject/MomentWise/src/ui/BottomNav.cpp
 CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj -MF CMakeFiles\MomentWise.dir\src\ui\BottomNav.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\ui\BottomNav.cpp.obj -c D:\QtProject\MomentWise\src\ui\BottomNav.cpp
 
 CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.i: cmake_force
@@ -339,26 +309,11 @@ CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.s"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QtProject\MomentWise\src\ui\BottomNav.cpp -o CMakeFiles\MomentWise.dir\src\ui\BottomNav.cpp.s
 
-CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj: CMakeFiles/MomentWise.dir/flags.make
-CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
-CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj: D:/QtProject/MomentWise/src/ui/CustomStatusBar.cpp
-CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj -MF CMakeFiles\MomentWise.dir\src\ui\CustomStatusBar.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\ui\CustomStatusBar.cpp.obj -c D:\QtProject\MomentWise\src\ui\CustomStatusBar.cpp
-
-CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.i"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QtProject\MomentWise\src\ui\CustomStatusBar.cpp > CMakeFiles\MomentWise.dir\src\ui\CustomStatusBar.cpp.i
-
-CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.s"
-	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QtProject\MomentWise\src\ui\CustomStatusBar.cpp -o CMakeFiles\MomentWise.dir\src\ui\CustomStatusBar.cpp.s
-
 CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj: CMakeFiles/MomentWise.dir/flags.make
 CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj: D:/QtProject/MomentWise/src/ui/BreathingRing.cpp
 CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj -MF CMakeFiles\MomentWise.dir\src\ui\BreathingRing.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\ui\BreathingRing.cpp.obj -c D:\QtProject\MomentWise\src\ui\BreathingRing.cpp
 
 CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.i: cmake_force
@@ -373,7 +328,7 @@ CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj: CMakeFiles/MomentWise.dir/flags.
 CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj: D:/QtProject/MomentWise/src/ui/Theme.cpp
 CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj -MF CMakeFiles\MomentWise.dir\src\ui\Theme.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\ui\Theme.cpp.obj -c D:\QtProject\MomentWise\src\ui\Theme.cpp
 
 CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.i: cmake_force
@@ -388,7 +343,7 @@ CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj: CMakeFiles/MomentWise.
 CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj: D:/QtProject/MomentWise/src/ui/AcrylicBlur_win.cpp
 CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj -MF CMakeFiles\MomentWise.dir\src\ui\AcrylicBlur_win.cpp.obj.d -o CMakeFiles\MomentWise.dir\src\ui\AcrylicBlur_win.cpp.obj -c D:\QtProject\MomentWise\src\ui\AcrylicBlur_win.cpp
 
 CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.i: cmake_force
@@ -403,7 +358,7 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: C
 CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/MomentWise.dir/includes_CXX.rsp
 CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp
 CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/MomentWise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj"
 	D:\download\Qt\Tools\mingw810_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj -MF CMakeFiles\MomentWise.dir\MomentWise_autogen\3YJK5W5UP7\qrc_resources.cpp.obj.d -o CMakeFiles\MomentWise.dir\MomentWise_autogen\3YJK5W5UP7\qrc_resources.cpp.obj -c D:\QtProject\MomentWise\build\MomentWise_autogen\3YJK5W5UP7\qrc_resources.cpp
 
 CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.i: cmake_force
@@ -420,20 +375,17 @@ MomentWise_OBJECTS = \
 "CMakeFiles/MomentWise.dir/src/main.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/AppConfig.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/Database.cpp.obj" \
-"CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj" \
-"CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj" \
-"CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj" \
 "CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj" \
@@ -446,20 +398,17 @@ MomentWise.exe: CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cp
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/main.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/AppConfig.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/Database.cpp.obj
-MomentWise.exe: CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/TrayManager.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/PomodoroController.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/MiniBallWidget.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/TodoModel.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.obj
-MomentWise.exe: CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/StatsStore.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/QuoteProvider.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/HotkeyManager_win.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/ui/HeaderWidget.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/ui/BottomNav.cpp.obj
-MomentWise.exe: CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/ui/Theme.cpp.obj
 MomentWise.exe: CMakeFiles/MomentWise.dir/src/ui/AcrylicBlur_win.cpp.obj
@@ -471,10 +420,11 @@ MomentWise.exe: D:/download/Qt/5.15.2/mingw81_32/lib/libQt5Sql.a
 MomentWise.exe: D:/download/Qt/5.15.2/mingw81_32/lib/libQt5Gui.a
 MomentWise.exe: D:/download/Qt/5.15.2/mingw81_32/lib/libQt5Network.a
 MomentWise.exe: D:/download/Qt/5.15.2/mingw81_32/lib/libQt5Core.a
+MomentWise.exe: D:/download/Qt/5.15.2/mingw81_32/lib/libqtmain.a
 MomentWise.exe: CMakeFiles/MomentWise.dir/linkLibs.rsp
 MomentWise.exe: CMakeFiles/MomentWise.dir/objects1.rsp
 MomentWise.exe: CMakeFiles/MomentWise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable MomentWise.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\QtProject\MomentWise\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable MomentWise.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MomentWise.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

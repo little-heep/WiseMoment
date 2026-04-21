@@ -6,6 +6,27 @@
 #include <QSqlQuery>
 #include <QVariant>
 
+namespace {
+
+bool addDailyDelta(const QDate& day, int focusDelta, int todoDelta, const char* updateClause)
+{
+    if (!day.isValid() || (focusDelta <= 0 && todoDelta <= 0))
+        return false;
+
+    Database::ensureSchema();
+    auto db = Database::db();
+    QSqlQuery q(db);
+    q.prepare(QString(
+        "INSERT INTO daily_stats(day,focus_seconds,todo_completed) VALUES(?,?,?) "
+        "ON CONFLICT(day) DO UPDATE SET %1").arg(QString::fromUtf8(updateClause)));
+    q.addBindValue(QVariant(day.toString(Qt::ISODate)));
+    q.addBindValue(QVariant(focusDelta));
+    q.addBindValue(QVariant(todoDelta));
+    return q.exec();
+}
+
+} // namespace
+
 StatsStore::StatsStore(QObject* parent)
     : QObject(parent)
 {
@@ -13,36 +34,16 @@ StatsStore::StatsStore(QObject* parent)
 
 void StatsStore::addFocusSeconds(const QDate& day, int seconds)
 {
-    if (!day.isValid() || seconds <= 0)
+    if (seconds <= 0)
         return;
-    Database::ensureSchema();
-    auto db = Database::db();
-    QSqlQuery q(db);
-    q.prepare(
-        "INSERT INTO daily_stats(day,focus_seconds,todo_completed) VALUES(?,?,?) "
-        "ON CONFLICT(day) DO UPDATE SET focus_seconds = focus_seconds + excluded.focus_seconds"
-    );
-    q.addBindValue(QVariant(day.toString(Qt::ISODate)));
-    q.addBindValue(QVariant(seconds));
-    q.addBindValue(QVariant(0));
-    q.exec();
+    addDailyDelta(day, seconds, 0, "focus_seconds = focus_seconds + excluded.focus_seconds");
 }
 
 void StatsStore::addTodoCompleted(const QDate& day, int count)
 {
-    if (!day.isValid() || count <= 0)
+    if (count <= 0)
         return;
-    Database::ensureSchema();
-    auto db = Database::db();
-    QSqlQuery q(db);
-    q.prepare(
-        "INSERT INTO daily_stats(day,focus_seconds,todo_completed) VALUES(?,?,?) "
-        "ON CONFLICT(day) DO UPDATE SET todo_completed = todo_completed + excluded.todo_completed"
-    );
-    q.addBindValue(QVariant(day.toString(Qt::ISODate)));
-    q.addBindValue(QVariant(0));
-    q.addBindValue(QVariant(count));
-    q.exec();
+    addDailyDelta(day, 0, count, "todo_completed = todo_completed + excluded.todo_completed");
 }
 
 DailyStats StatsStore::statsForDay(const QDate& day) const

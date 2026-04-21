@@ -226,30 +226,6 @@ src/AppConfig.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/AppConfig.cpp.s
 .PHONY : src/AppConfig.cpp.s
 
-src/AudioRecorder.obj: src/AudioRecorder.cpp.obj
-.PHONY : src/AudioRecorder.obj
-
-# target to build an object file
-src/AudioRecorder.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.obj
-.PHONY : src/AudioRecorder.cpp.obj
-
-src/AudioRecorder.i: src/AudioRecorder.cpp.i
-.PHONY : src/AudioRecorder.i
-
-# target to preprocess a source file
-src/AudioRecorder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.i
-.PHONY : src/AudioRecorder.cpp.i
-
-src/AudioRecorder.s: src/AudioRecorder.cpp.s
-.PHONY : src/AudioRecorder.s
-
-# target to generate assembly for a file
-src/AudioRecorder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/AudioRecorder.cpp.s
-.PHONY : src/AudioRecorder.cpp.s
-
 src/Database.obj: src/Database.cpp.obj
 .PHONY : src/Database.obj
 
@@ -442,30 +418,6 @@ src/TodoCardDelegate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/TodoCardDelegate.cpp.s
 .PHONY : src/TodoCardDelegate.cpp.s
 
-src/TodoDueDelegate.obj: src/TodoDueDelegate.cpp.obj
-.PHONY : src/TodoDueDelegate.obj
-
-# target to build an object file
-src/TodoDueDelegate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.obj
-.PHONY : src/TodoDueDelegate.cpp.obj
-
-src/TodoDueDelegate.i: src/TodoDueDelegate.cpp.i
-.PHONY : src/TodoDueDelegate.i
-
-# target to preprocess a source file
-src/TodoDueDelegate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.i
-.PHONY : src/TodoDueDelegate.cpp.i
-
-src/TodoDueDelegate.s: src/TodoDueDelegate.cpp.s
-.PHONY : src/TodoDueDelegate.s
-
-# target to generate assembly for a file
-src/TodoDueDelegate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/TodoDueDelegate.cpp.s
-.PHONY : src/TodoDueDelegate.cpp.s
-
 src/TodoModel.obj: src/TodoModel.cpp.obj
 .PHONY : src/TodoModel.obj
 
@@ -610,30 +562,6 @@ src/ui/BreathingRing.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/ui/BreathingRing.cpp.s
 .PHONY : src/ui/BreathingRing.cpp.s
 
-src/ui/CustomStatusBar.obj: src/ui/CustomStatusBar.cpp.obj
-.PHONY : src/ui/CustomStatusBar.obj
-
-# target to build an object file
-src/ui/CustomStatusBar.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.obj
-.PHONY : src/ui/CustomStatusBar.cpp.obj
-
-src/ui/CustomStatusBar.i: src/ui/CustomStatusBar.cpp.i
-.PHONY : src/ui/CustomStatusBar.i
-
-# target to preprocess a source file
-src/ui/CustomStatusBar.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.i
-.PHONY : src/ui/CustomStatusBar.cpp.i
-
-src/ui/CustomStatusBar.s: src/ui/CustomStatusBar.cpp.s
-.PHONY : src/ui/CustomStatusBar.s
-
-# target to generate assembly for a file
-src/ui/CustomStatusBar.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MomentWise.dir\build.make CMakeFiles/MomentWise.dir/src/ui/CustomStatusBar.cpp.s
-.PHONY : src/ui/CustomStatusBar.cpp.s
-
 src/ui/HeaderWidget.obj: src/ui/HeaderWidget.cpp.obj
 .PHONY : src/ui/HeaderWidget.obj
 
@@ -702,9 +630,6 @@ help:
 	@echo ... src/AppConfig.obj
 	@echo ... src/AppConfig.i
 	@echo ... src/AppConfig.s
-	@echo ... src/AudioRecorder.obj
-	@echo ... src/AudioRecorder.i
-	@echo ... src/AudioRecorder.s
 	@echo ... src/Database.obj
 	@echo ... src/Database.i
 	@echo ... src/Database.s
@@ -729,9 +654,6 @@ help:
 	@echo ... src/TodoCardDelegate.obj
 	@echo ... src/TodoCardDelegate.i
 	@echo ... src/TodoCardDelegate.s
-	@echo ... src/TodoDueDelegate.obj
-	@echo ... src/TodoDueDelegate.i
-	@echo ... src/TodoDueDelegate.s
 	@echo ... src/TodoModel.obj
 	@echo ... src/TodoModel.i
 	@echo ... src/TodoModel.s
@@ -750,9 +672,6 @@ help:
 	@echo ... src/ui/BreathingRing.obj
 	@echo ... src/ui/BreathingRing.i
 	@echo ... src/ui/BreathingRing.s
-	@echo ... src/ui/CustomStatusBar.obj
-	@echo ... src/ui/CustomStatusBar.i
-	@echo ... src/ui/CustomStatusBar.s
 	@echo ... src/ui/HeaderWidget.obj
 	@echo ... src/ui/HeaderWidget.i
 	@echo ... src/ui/HeaderWidget.s

@@ -16,8 +16,6 @@ add_executable(MomentWise
     src/AppConfig.cpp
     src/Database.h
     src/Database.cpp
-    src/AudioRecorder.h
-    src/AudioRecorder.cpp
     src/MainWindow.h
     src/MainWindow.cpp
     src/TrayManager.h
@@ -30,8 +28,6 @@ add_executable(MomentWise
     src/TodoModel.cpp
     src/TodoCardDelegate.h
     src/TodoCardDelegate.cpp
-    src/TodoDueDelegate.h
-    src/TodoDueDelegate.cpp
     src/StatsStore.h
     src/StatsStore.cpp
     src/QuoteProvider.h
@@ -42,8 +38,6 @@ add_executable(MomentWise
     src/ui/HeaderWidget.cpp
     src/ui/BottomNav.h
     src/ui/BottomNav.cpp
-    src/ui/CustomStatusBar.h
-    src/ui/CustomStatusBar.cpp
     src/ui/BreathingRing.h
     src/ui/BreathingRing.cpp
     src/ui/Theme.h
@@ -56,6 +50,7 @@ add_executable(MomentWise
 target_link_libraries(MomentWise PRIVATE Qt5::Widgets Qt5::Multimedia Qt5::Sql)
 
 if (WIN32)
+    set_target_properties(MomentWise PROPERTIES WIN32_EXECUTABLE ON)
     target_compile_definitions(MomentWise PRIVATE NOMINMAX WIN32_LEAN_AND_MEAN)
 endif()
 

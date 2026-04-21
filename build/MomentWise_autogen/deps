@@ -7,8 +7,6 @@ MomentWise_autogen/timestamp: \
 	D:/QtProject/MomentWise/resources/resources.qrc \
 	D:/QtProject/MomentWise/src/AppConfig.cpp \
 	D:/QtProject/MomentWise/src/AppConfig.h \
-	D:/QtProject/MomentWise/src/AudioRecorder.cpp \
-	D:/QtProject/MomentWise/src/AudioRecorder.h \
 	D:/QtProject/MomentWise/src/Database.cpp \
 	D:/QtProject/MomentWise/src/Database.h \
 	D:/QtProject/MomentWise/src/HotkeyManager_win.cpp \
@@ -25,8 +23,6 @@ MomentWise_autogen/timestamp: \
 	D:/QtProject/MomentWise/src/StatsStore.h \
 	D:/QtProject/MomentWise/src/TodoCardDelegate.cpp \
 	D:/QtProject/MomentWise/src/TodoCardDelegate.h \
-	D:/QtProject/MomentWise/src/TodoDueDelegate.cpp \
-	D:/QtProject/MomentWise/src/TodoDueDelegate.h \
 	D:/QtProject/MomentWise/src/TodoModel.cpp \
 	D:/QtProject/MomentWise/src/TodoModel.h \
 	D:/QtProject/MomentWise/src/TrayManager.cpp \
@@ -38,8 +34,6 @@ MomentWise_autogen/timestamp: \
 	D:/QtProject/MomentWise/src/ui/BottomNav.h \
 	D:/QtProject/MomentWise/src/ui/BreathingRing.cpp \
 	D:/QtProject/MomentWise/src/ui/BreathingRing.h \
-	D:/QtProject/MomentWise/src/ui/CustomStatusBar.cpp \
-	D:/QtProject/MomentWise/src/ui/CustomStatusBar.h \
 	D:/QtProject/MomentWise/src/ui/HeaderWidget.cpp \
 	D:/QtProject/MomentWise/src/ui/HeaderWidget.h \
 	D:/QtProject/MomentWise/src/ui/Theme.cpp \

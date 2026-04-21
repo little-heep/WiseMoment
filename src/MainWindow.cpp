@@ -7,7 +7,6 @@
 #include "QuoteProvider.h"
 #include "TodoModel.h"
 #include "TodoCardDelegate.h"
-#include "TodoDueDelegate.h"
 #include "StatsStore.h"
 #include "TrayManager.h"
 #include "ui/BreathingRing.h"
@@ -15,7 +14,6 @@
 #include "ui/BottomNav.h"
 #include "ui/AcrylicBlur_win.h"
 
-#include <QAction>
 #include <QCloseEvent>
 #include <QDate>
 #include <QDateTimeEdit>
@@ -34,14 +32,10 @@
 #include <QTimer>
 #include <QPushButton>
 #include <QSpinBox>
-#include <QSystemTrayIcon>
-#include <QTabWidget>
 #include <QTableView>
-#include <QToolBar>
 #include <QVBoxLayout>
 #include <QCheckBox>
 #include <QComboBox>
-#include <QGroupBox>
 #include <QStackedWidget>
 #include <QToolButton>
 #include <QFrame>
@@ -160,17 +154,16 @@ void MainWindow::buildUi()
     connect(m_nav, &BottomNav::indexChanged, this, [this](int idx) {
         const int currentIdx = m_stack->currentIndex();
         if (currentIdx != idx) {
-            animatePageTransition(currentIdx, idx);
+            animatePageTransition(idx);
         }
         m_nav->setCurrentIndex(idx);
     });
 
-    const auto makeSectionTitle = [this](const QString& eyebrow, const QString& title, const QString& subtitle) {
+    const auto makeSectionTitle = [this](const QString& eyebrow, const QString& title) {
         auto* box = new QFrame(this);
         auto* layout = new QVBoxLayout(box);
         layout->setContentsMargins(0, 0, 0, 0);
         layout->setSpacing(4);
-        Q_UNUSED(subtitle);
 
         auto* eyebrowLabel = new QLabel(eyebrow, box);
         eyebrowLabel->setProperty("role", "eyebrow");
@@ -313,8 +306,7 @@ void MainWindow::buildUi()
     pomoLayout->setContentsMargins(24, 18, 24, 18);
     pomoLayout->setSpacing(16);
 
-    pomoLayout->addWidget(makeSectionTitle(tr("焚香入定"), tr("专注时刻"),
-                                           tr("以更安静的视觉层次组织时间、声音与状态切换。")));
+    pomoLayout->addWidget(makeSectionTitle(tr("焚香入定"), tr("专注时刻")));
 
     auto* focusPanel = makePanel();
     auto* focusLayout = new QVBoxLayout(focusPanel);
@@ -513,8 +505,7 @@ void MainWindow::buildUi()
     todoLayout->setContentsMargins(24, 18, 24, 18);
     todoLayout->setSpacing(16);
 
-    todoLayout->addWidget(makeSectionTitle(tr("执简记事"), tr("任务清单"),
-                                           tr("把待办、期限与完成状态收进同一页，减少视觉噪音。")));
+    todoLayout->addWidget(makeSectionTitle(tr("执简记事"), tr("任务清单")));
 
     auto* todoPanel = makePanel();
     auto* todoPanelLayout = new QVBoxLayout(todoPanel);
@@ -622,8 +613,7 @@ void MainWindow::buildUi()
     statsLayout->setContentsMargins(24, 18, 24, 18);
     statsLayout->setSpacing(16);
 
-    statsLayout->addWidget(makeSectionTitle(tr("观象知时"), tr("专注统计"),
-                                            tr("用更清晰的卡片层级查看区间表现、日均效率与完成密度。")));
+    statsLayout->addWidget(makeSectionTitle(tr("观象知时"), tr("专注统计")));
 
     auto* rangeBox = makePanel();
     auto* rangeLayout = new QVBoxLayout(rangeBox);
@@ -758,36 +748,6 @@ void MainWindow::onPomodoroFinished()
     updateStatsUi();
 }
 
-void MainWindow::onAddTodo()
-{
-    // Not used (wired inline)
-}
-
-void MainWindow::onRemoveTodo()
-{
-    const auto idx = m_todoView->currentIndex();
-    if (!idx.isValid())
-        return;
-    m_todos->removeRowAt(idx.row());
-    updateStatsUi();
-}
-
-void MainWindow::onToggleTodoDone()
-{
-    const auto idx = m_todoView->currentIndex();
-    if (!idx.isValid())
-        return;
-
-    const bool wasDone = m_todos->items().at(idx.row()).done;
-    m_todos->toggleDone(idx.row());
-    const bool nowDone = m_todos->items().at(idx.row()).done;
-
-    if (!wasDone && nowDone) {
-        m_stats->addTodoCompleted(QDate::currentDate(), 1);
-        updateStatsUi();
-    }
-}
-
 void MainWindow::applyWindowPins()
 {
     const bool onTop = AppConfig::alwaysOnTop();
@@ -894,7 +854,7 @@ QString MainWindow::fmtTime(int seconds)
     return QString("%1s").arg(s);
 }
 
-void MainWindow::animatePageTransition(int fromIndex, int toIndex)
+void MainWindow::animatePageTransition(int toIndex)
 {
     // 卷轴舒展动画：淡出当前页面 -> 切换页面 -> 淡入新页面
     m_pageTransitionAnimation->stop();
