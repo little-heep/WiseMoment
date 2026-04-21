@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 16,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "qt515-mingw32",
+      "displayName": "Qt 5.15.2 MinGW 32-bit",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_PREFIX_PATH": "D:/download/Qt/5.15.2/mingw81_32",
+        "CMAKE_C_COMPILER": "D:/download/Qt/Tools/mingw810_32/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "D:/download/Qt/Tools/mingw810_32/bin/g++.exe"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "qt515-mingw32",
+      "configurePreset": "qt515-mingw32"
+    }
+  ]
+}
+
