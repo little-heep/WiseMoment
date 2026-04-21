@@ -65,6 +65,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake"
   "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake"
   "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake"
+  "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake"
+  "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake"
+  "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake"
   "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake"
   "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake"
   "D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake"
@@ -102,6 +105,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/MomentWise.dir/DependInfo.cmake"
+  "CMakeFiles/translations.dir/DependInfo.cmake"
   "CMakeFiles/MomentWise_autogen_timestamp_deps.dir/DependInfo.cmake"
   "CMakeFiles/MomentWise_autogen.dir/DependInfo.cmake"
   )

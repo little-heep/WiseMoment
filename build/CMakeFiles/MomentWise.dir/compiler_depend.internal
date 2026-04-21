@@ -6,19 +6,16 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj
 
 CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj
  D:/QtProject/MomentWise/build/MomentWise_autogen/mocs_compilation.cpp
- D:/QtProject/MomentWise/src/AudioRecorder.h
  D:/QtProject/MomentWise/src/HotkeyManager_win.h
  D:/QtProject/MomentWise/src/MainWindow.h
  D:/QtProject/MomentWise/src/MiniBallWidget.h
  D:/QtProject/MomentWise/src/PomodoroController.h
  D:/QtProject/MomentWise/src/StatsStore.h
  D:/QtProject/MomentWise/src/TodoCardDelegate.h
- D:/QtProject/MomentWise/src/TodoDueDelegate.h
  D:/QtProject/MomentWise/src/TodoModel.h
  D:/QtProject/MomentWise/src/TrayManager.h
  D:/QtProject/MomentWise/src/ui/BottomNav.h
  D:/QtProject/MomentWise/src/ui/BreathingRing.h
- D:/QtProject/MomentWise/src/ui/CustomStatusBar.h
  D:/QtProject/MomentWise/src/ui/HeaderWidget.h
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractNativeEventFilter
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractTableModel
@@ -358,19 +355,16 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdarg.h
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stddef.h
  D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdint.h
- D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_AudioRecorder.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_HotkeyManager_win.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_MainWindow.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_MiniBallWidget.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_PomodoroController.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_StatsStore.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_TodoCardDelegate.cpp
- D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_TodoDueDelegate.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_TodoModel.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/UVLADIE3JM/moc_TrayManager.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/YPKJ5OE7LN/moc_BottomNav.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/YPKJ5OE7LN/moc_BreathingRing.cpp
- D:/QtProject/MomentWise/build/MomentWise_autogen/YPKJ5OE7LN/moc_CustomStatusBar.cpp
  D:/QtProject/MomentWise/build/MomentWise_autogen/YPKJ5OE7LN/moc_HeaderWidget.cpp
 
 CMakeFiles/MomentWise.dir/src/AppConfig.cpp.obj
@@ -5772,6 +5766,9 @@ D:/QtProject/MomentWise/build/MomentWise_autogen/timestamp
  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake
  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake
+ D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake
+ D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake
+ D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake
  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake
  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake
  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake

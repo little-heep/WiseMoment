@@ -15,6 +15,7 @@
 #include "ui/AcrylicBlur_win.h"
 
 #include <QCloseEvent>
+#include <QCoreApplication>
 #include <QDate>
 #include <QDateTimeEdit>
 #include <QDateEdit>
@@ -42,6 +43,7 @@
 #include <QGraphicsOpacityEffect>
 #include <QPalette>
 #include <QPropertyAnimation>
+#include <QProcess>
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
@@ -762,9 +764,21 @@ void MainWindow::applyWindowOpacity()
 
 void MainWindow::applyLocale()
 {
-    QMessageBox::information(this, tr("Restart required"),
-                             tr("Language will fully apply after restart.\n\n"
-                                "If you want full translations, build .qm files using lrelease."));
+    QStringList restartArgs = QCoreApplication::arguments();
+    if (!restartArgs.isEmpty())
+        restartArgs.removeFirst();
+
+    const bool started = QProcess::startDetached(QCoreApplication::applicationFilePath(),
+                                                 restartArgs,
+                                                 QDir::currentPath());
+    if (!started) {
+        QMessageBox::warning(this, tr("Restart failed"),
+                             tr("Automatic restart failed.\n\n"
+                                "Please restart the app manually."));
+        return;
+    }
+
+    QCoreApplication::quit();
 }
 
 void MainWindow::toggleMainVisibility()

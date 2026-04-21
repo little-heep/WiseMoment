@@ -129,6 +129,19 @@ MomentWise/fast:
 .PHONY : MomentWise/fast
 
 #=============================================================================
+# Target rules for targets named translations
+
+# Build rule for target.
+translations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 translations
+.PHONY : translations
+
+# fast build rule for target.
+translations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\translations.dir\build.make CMakeFiles/translations.dir/build
+.PHONY : translations/fast
+
+#=============================================================================
 # Target rules for targets named MomentWise_autogen_timestamp_deps
 
 # Build rule for target.
@@ -620,6 +633,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... MomentWise_autogen
 	@echo ... MomentWise_autogen_timestamp_deps
+	@echo ... translations
 	@echo ... MomentWise
 	@echo ... MomentWise_autogen/3YJK5W5UP7/qrc_resources.obj
 	@echo ... MomentWise_autogen/3YJK5W5UP7/qrc_resources.i

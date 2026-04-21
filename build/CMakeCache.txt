@@ -231,6 +231,9 @@ Qt5Core_DIR:PATH=D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core
 //The directory containing a CMake configuration file for Qt5Gui.
 Qt5Gui_DIR:PATH=D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui
 
+//The directory containing a CMake configuration file for Qt5LinguistTools.
+Qt5LinguistTools_DIR:PATH=D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools
+
 //The directory containing a CMake configuration file for Qt5Multimedia.
 Qt5Multimedia_DIR:PATH=D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia
 

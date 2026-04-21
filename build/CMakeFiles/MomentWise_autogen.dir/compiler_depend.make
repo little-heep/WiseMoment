@@ -9,8 +9,6 @@ MomentWise_autogen/timestamp: D:/QtProject/MomentWise/CMakeLists.txt \
   D:/QtProject/MomentWise/resources/resources.qrc \
   D:/QtProject/MomentWise/src/AppConfig.cpp \
   D:/QtProject/MomentWise/src/AppConfig.h \
-  D:/QtProject/MomentWise/src/AudioRecorder.cpp \
-  D:/QtProject/MomentWise/src/AudioRecorder.h \
   D:/QtProject/MomentWise/src/Database.cpp \
   D:/QtProject/MomentWise/src/Database.h \
   D:/QtProject/MomentWise/src/HotkeyManager_win.cpp \
@@ -27,8 +25,6 @@ MomentWise_autogen/timestamp: D:/QtProject/MomentWise/CMakeLists.txt \
   D:/QtProject/MomentWise/src/StatsStore.h \
   D:/QtProject/MomentWise/src/TodoCardDelegate.cpp \
   D:/QtProject/MomentWise/src/TodoCardDelegate.h \
-  D:/QtProject/MomentWise/src/TodoDueDelegate.cpp \
-  D:/QtProject/MomentWise/src/TodoDueDelegate.h \
   D:/QtProject/MomentWise/src/TodoModel.cpp \
   D:/QtProject/MomentWise/src/TodoModel.h \
   D:/QtProject/MomentWise/src/TrayManager.cpp \
@@ -40,8 +36,6 @@ MomentWise_autogen/timestamp: D:/QtProject/MomentWise/CMakeLists.txt \
   D:/QtProject/MomentWise/src/ui/BottomNav.h \
   D:/QtProject/MomentWise/src/ui/BreathingRing.cpp \
   D:/QtProject/MomentWise/src/ui/BreathingRing.h \
-  D:/QtProject/MomentWise/src/ui/CustomStatusBar.cpp \
-  D:/QtProject/MomentWise/src/ui/CustomStatusBar.h \
   D:/QtProject/MomentWise/src/ui/HeaderWidget.cpp \
   D:/QtProject/MomentWise/src/ui/HeaderWidget.h \
   D:/QtProject/MomentWise/src/ui/Theme.cpp \
@@ -451,11 +445,17 @@ D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMak
 
 D:/QtProject/MomentWise/src/HotkeyManager_win.h:
 
+D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qshareddata.h:
+
+D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-windres.cmake:
+
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ios:
 
 D:/QtProject/MomentWise/src/MiniBallWidget.h:
 
 CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
+
+D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-Initialize.cmake:
 
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake:
 
@@ -467,13 +467,13 @@ CMakeFiles/4.0.2/CMakeRCCompiler.cmake:
 
 D:/QtProject/MomentWise/resources/resources.qrc:
 
-D:/QtProject/MomentWise/src/AudioRecorder.cpp:
-
 CMakeFiles/4.0.2/CMakeSystem.cmake:
 
-D:/QtProject/MomentWise/src/AppConfig.cpp:
+D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-GNU-CXX.cmake:
 
-D:/QtProject/MomentWise/src/AudioRecorder.h:
+D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-GNU.cmake:
+
+D:/QtProject/MomentWise/src/AppConfig.cpp:
 
 D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/_mingw.h:
 
@@ -555,16 +555,6 @@ D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iter
 
 D:/QtProject/MomentWise/src/TodoCardDelegate.h:
 
-D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h:
-
-D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qstring.h:
-
-D:/QtProject/MomentWise/src/TodoDueDelegate.cpp:
-
-D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake:
-
-D:/QtProject/MomentWise/src/TodoDueDelegate.h:
-
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake:
 
 D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake:
@@ -609,16 +599,6 @@ D:/QtProject/MomentWise/src/ui/BottomNav.cpp:
 
 D:/QtProject/MomentWise/src/ui/BottomNav.h:
 
-D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h:
-
-D:/QtProject/MomentWise/src/ui/CustomStatusBar.cpp:
-
-D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeGenericSystem.cmake:
-
-D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QMap:
-
-D:/QtProject/MomentWise/src/ui/CustomStatusBar.h:
-
 D:/QtProject/MomentWise/src/ui/HeaderWidget.cpp:
 
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake:
@@ -640,6 +620,10 @@ D:/QtProject/MomentWise/src/ui/Theme.cpp:
 D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/bin/cmake.exe:
 
 D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake:
+
+D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeGenericSystem.cmake:
+
+D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdarg.h:
 
@@ -675,16 +659,6 @@ D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Plat
 
 D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-GNU-CXX-ABI.cmake:
 
-D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-GNU.cmake:
-
-D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-GNU-CXX.cmake:
-
-D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-Initialize.cmake:
-
-D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qshareddata.h:
-
-D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-windres.cmake:
-
 D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/wctype.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qstringliteral.h:
@@ -706,6 +680,8 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractTableModel:
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QDate:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QElapsedTimer:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QMap:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
 
@@ -879,6 +855,10 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qsharedpointer.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qsize.h:
 
+D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qstring.h:
+
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qtabwidget.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qstringalgorithms.h:
@@ -1004,6 +984,8 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QWidget:
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractslider.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractspinbox.h:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qmainwindow.h:
 

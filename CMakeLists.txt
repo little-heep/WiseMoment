@@ -8,7 +8,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC OFF)
 
-find_package(Qt5 REQUIRED COMPONENTS Widgets Multimedia Sql)
+find_package(Qt5 REQUIRED COMPONENTS Widgets Multimedia Sql LinguistTools)
 
 add_executable(MomentWise
     src/main.cpp
@@ -48,6 +48,19 @@ add_executable(MomentWise
 )
 
 target_link_libraries(MomentWise PRIVATE Qt5::Widgets Qt5::Multimedia Qt5::Sql)
+
+set(TS_FILES
+    i18n/MomentWise_en_US.ts
+    i18n/MomentWise_zh_CN.ts
+)
+qt5_add_translation(QM_FILES ${TS_FILES})
+add_custom_target(translations ALL DEPENDS ${QM_FILES})
+add_dependencies(MomentWise translations)
+
+add_custom_command(TARGET MomentWise POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E make_directory "$<TARGET_FILE_DIR:MomentWise>/i18n"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different ${QM_FILES} "$<TARGET_FILE_DIR:MomentWise>/i18n"
+)
 
 if (WIN32)
     set_target_properties(MomentWise PROPERTIES WIN32_EXECUTABLE ON)

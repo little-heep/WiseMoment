@@ -1,4 +1,7 @@
 # Hashes of file build rules.
 9698d7754ef86cae882958dd94b17144 CMakeFiles/MomentWise_autogen
+9698d7754ef86cae882958dd94b17144 CMakeFiles/translations
 959bb7b272f451cf14bd66a7d6cb1fe9 MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp
 0f38c111dc8fbe3cada61e24e60e04e7 MomentWise_autogen/timestamp
+674a20f6907bb69b746d541537cfa621 MomentWise_en_US.qm
+395dd6ccc1f0c39b5a34f80a77090e20 MomentWise_zh_CN.qm

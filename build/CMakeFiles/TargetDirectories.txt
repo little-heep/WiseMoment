@@ -1,4 +1,5 @@
 D:/QtProject/MomentWise/build/CMakeFiles/MomentWise.dir
+D:/QtProject/MomentWise/build/CMakeFiles/translations.dir
 D:/QtProject/MomentWise/build/CMakeFiles/edit_cache.dir
 D:/QtProject/MomentWise/build/CMakeFiles/rebuild_cache.dir
 D:/QtProject/MomentWise/build/CMakeFiles/MomentWise_autogen_timestamp_deps.dir

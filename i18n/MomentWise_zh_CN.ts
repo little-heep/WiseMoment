@@ -2,7 +2,209 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN">
 <context>
+    <name>BottomNav</name>
+    <message>
+        <source>专注</source>
+        <translation>专注</translation>
+    </message>
+    <message>
+        <source>任务</source>
+        <translation>任务</translation>
+    </message>
+    <message>
+        <source>统计</source>
+        <translation>统计</translation>
+    </message>
+</context>
+<context>
+    <name>HeaderWidget</name>
+    <message>
+        <source>置顶窗口</source>
+        <translation>置顶窗口</translation>
+    </message>
+    <message>
+        <source>切换小窗模式</source>
+        <translation>切换小窗模式</translation>
+    </message>
+    <message>
+        <source>更多设置</source>
+        <translation>更多设置</translation>
+    </message>
+    <message>
+        <source>最小化窗口</source>
+        <translation>最小化窗口</translation>
+    </message>
+    <message>
+        <source>关闭到托盘</source>
+        <translation>关闭到托盘</translation>
+    </message>
+    <message>
+        <source>已置顶窗口</source>
+        <translation>已置顶窗口</translation>
+    </message>
+    <message>
+        <source>窗影</source>
+        <translation>窗影</translation>
+    </message>
+    <message>
+        <source>文字</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <source>快捷键: Ctrl+Alt+M / Ctrl+Alt+P</source>
+        <translation>快捷键: Ctrl+Alt+M / Ctrl+Alt+P</translation>
+    </message>
+</context>
+<context>
     <name>MainWindow</name>
+    <message>
+        <source>焚香入定</source>
+        <translation>焚香入定</translation>
+    </message>
+    <message>
+        <source>专注时刻</source>
+        <translation>专注时刻</translation>
+    </message>
+    <message>
+        <source>专注时长（分钟）</source>
+        <translation>专注时长（分钟）</translation>
+    </message>
+    <message>
+        <source>开始专注</source>
+        <translation>开始专注</translation>
+    </message>
+    <message>
+        <source>暂停</source>
+        <translation>暂停</translation>
+    </message>
+    <message>
+        <source>继续</source>
+        <translation>继续</translation>
+    </message>
+    <message>
+        <source>停止</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>伴读与氛围</source>
+        <translation>伴读与氛围</translation>
+    </message>
+    <message>
+        <source>白噪音</source>
+        <translation>白噪音</translation>
+    </message>
+    <message>
+        <source>添加...</source>
+        <translation>添加...</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>删除</translation>
+    </message>
+    <message>
+        <source>音频:</source>
+        <translation>音频:</translation>
+    </message>
+    <message>
+        <source>运行时自动收缩为小球</source>
+        <translation>运行时自动收缩为小球</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>无</translation>
+    </message>
+    <message>
+        <source>Choose audio</source>
+        <translation>选择音频</translation>
+    </message>
+    <message>
+        <source>Audio files (*.mp3 *.wav *.m4a *.aac);;All files (*.*)</source>
+        <translation>音频文件 (*.mp3 *.wav *.m4a *.aac);;所有文件 (*.*)</translation>
+    </message>
+    <message>
+        <source>删除失败</source>
+        <translation>删除失败</translation>
+    </message>
+    <message>
+        <source>当前音频正在被占用或无权限删除。</source>
+        <translation>当前音频正在被占用或无权限删除。</translation>
+    </message>
+    <message>
+        <source>执简记事</source>
+        <translation>执简记事</translation>
+    </message>
+    <message>
+        <source>任务清单</source>
+        <translation>任务清单</translation>
+    </message>
+    <message>
+        <source>新任务</source>
+        <translation>新任务</translation>
+    </message>
+    <message>
+        <source>新建待办事项...</source>
+        <translation>新建待办事项...</translation>
+    </message>
+    <message>
+        <source>添加</source>
+        <translation>添加</translation>
+    </message>
+    <message>
+        <source>期限</source>
+        <translation>期限</translation>
+    </message>
+    <message>
+        <source>观象知时</source>
+        <translation>观象知时</translation>
+    </message>
+    <message>
+        <source>专注统计</source>
+        <translation>专注统计</translation>
+    </message>
+    <message>
+        <source>时间范围</source>
+        <translation>时间范围</translation>
+    </message>
+    <message>
+        <source>应用</source>
+        <translation>应用</translation>
+    </message>
+    <message>
+        <source>开始日期</source>
+        <translation>开始日期</translation>
+    </message>
+    <message>
+        <source>结束日期</source>
+        <translation>结束日期</translation>
+    </message>
+    <message>
+        <source>区间核心指标</source>
+        <translation>区间核心指标</translation>
+    </message>
+    <message>
+        <source>专注总时长</source>
+        <translation>专注总时长</translation>
+    </message>
+    <message>
+        <source>完成任务</source>
+        <translation>完成任务</translation>
+    </message>
+    <message>
+        <source>有效天数</source>
+        <translation>有效天数</translation>
+    </message>
+    <message>
+        <source>日均任务</source>
+        <translation>日均任务</translation>
+    </message>
+    <message>
+        <source>效率洞察</source>
+        <translation>效率洞察</translation>
+    </message>
+    <message>
+        <source>日均专注 %1 ，平均每天完成 %2 项任务</source>
+        <translation>日均专注 %1 ，平均每天完成 %2 项任务</translation>
+    </message>
     <message>
         <source>Pomodoro</source>
         <translation>番茄钟</translation>
@@ -50,6 +252,76 @@
     <message>
         <source>Restart required</source>
         <translation>需要重启</translation>
+    </message>
+    <message>
+        <source>Language will fully apply after restart.
+
+Please restart the app to refresh all visible text.</source>
+        <translation>语言将在重启后完全生效。
+
+请重启应用以刷新所有可见文本。</translation>
+    </message>
+</context>
+<context>
+    <name>TodoModel</name>
+    <message>
+        <source>Done</source>
+        <translation>已完成</translation>
+    </message>
+    <message>
+        <source>Todo</source>
+        <translation>待办</translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation>标题</translation>
+    </message>
+    <message>
+        <source>Due</source>
+        <translation>截止</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>状态</translation>
+    </message>
+</context>
+<context>
+    <name>TrayManager</name>
+    <message>
+        <source>Pomodoro finished</source>
+        <translation>番茄钟完成</translation>
+    </message>
+    <message>
+        <source>Time is up. Take a break!</source>
+        <translation>时间到了，休息一下！</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>显示</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>隐藏</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>暂停</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>继续</translation>
+    </message>
+    <message>
+        <source>Start</source>
+        <translation>开始</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>Quit</source>
+        <translation>退出</translation>
     </message>
 </context>
 </TS>

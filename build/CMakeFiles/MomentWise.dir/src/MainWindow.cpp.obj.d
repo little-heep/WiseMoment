@@ -349,7 +349,6 @@ CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qrubberband.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qabstractitemmodel.h \
- D:\QtProject\MomentWise\src\TodoDueDelegate.h \
  D:\QtProject\MomentWise\src\StatsStore.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QDate \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QMap \
@@ -361,10 +360,6 @@ CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: \
  D:\QtProject\MomentWise\src\ui/HeaderWidget.h \
  D:\QtProject\MomentWise\src\ui/BottomNav.h \
  D:\QtProject\MomentWise\src\ui/AcrylicBlur_win.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QAction \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qaction.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qactiongroup.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qaction.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtGui/QCloseEvent \
  D:/download/Qt/5.15.2/mingw81_32/include/QtGui/qevent.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qcoreevent.h \
@@ -373,6 +368,9 @@ CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qfiledevice.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtGui/qvector2d.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtGui/qtouchdevice.h \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QCoreApplication \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qcoreapplication.h \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qeventloop.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QDateTimeEdit \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qdatetimeedit.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qdatetime.h \
@@ -419,19 +417,13 @@ CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractbutton.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QSpinBox \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qspinbox.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QTabWidget \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qtabwidget.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QTableView \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qtableview.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QToolBar \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qtoolbar.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QVBoxLayout \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QCheckBox \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qcheckbox.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QComboBox \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qcombobox.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QGroupBox \
- D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qgroupbox.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QStackedWidget \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qstackedwidget.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QToolButton \
@@ -446,4 +438,6 @@ CMakeFiles/MomentWise.dir/src/MainWindow.cpp.obj: \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qpropertyanimation.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qvariantanimation.h \
  D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qeasingcurve.h \
- D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qabstractanimation.h
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qabstractanimation.h \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QProcess \
+ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qprocess.h

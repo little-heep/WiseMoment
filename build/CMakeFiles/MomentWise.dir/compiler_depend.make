@@ -4,19 +4,16 @@
 CMakeFiles/MomentWise.dir/MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: MomentWise_autogen/3YJK5W5UP7/qrc_resources.cpp
 
 CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj: MomentWise_autogen/mocs_compilation.cpp \
-  D:/QtProject/MomentWise/src/AudioRecorder.h \
   D:/QtProject/MomentWise/src/HotkeyManager_win.h \
   D:/QtProject/MomentWise/src/MainWindow.h \
   D:/QtProject/MomentWise/src/MiniBallWidget.h \
   D:/QtProject/MomentWise/src/PomodoroController.h \
   D:/QtProject/MomentWise/src/StatsStore.h \
   D:/QtProject/MomentWise/src/TodoCardDelegate.h \
-  D:/QtProject/MomentWise/src/TodoDueDelegate.h \
   D:/QtProject/MomentWise/src/TodoModel.h \
   D:/QtProject/MomentWise/src/TrayManager.h \
   D:/QtProject/MomentWise/src/ui/BottomNav.h \
   D:/QtProject/MomentWise/src/ui/BreathingRing.h \
-  D:/QtProject/MomentWise/src/ui/CustomStatusBar.h \
   D:/QtProject/MomentWise/src/ui/HeaderWidget.h \
   D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractNativeEventFilter \
   D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractTableModel \
@@ -356,19 +353,16 @@ CMakeFiles/MomentWise.dir/MomentWise_autogen/mocs_compilation.cpp.obj: MomentWis
   D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdarg.h \
   D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stddef.h \
   D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdint.h \
-  MomentWise_autogen/UVLADIE3JM/moc_AudioRecorder.cpp \
   MomentWise_autogen/UVLADIE3JM/moc_HotkeyManager_win.cpp \
   MomentWise_autogen/UVLADIE3JM/moc_MainWindow.cpp \
   MomentWise_autogen/UVLADIE3JM/moc_MiniBallWidget.cpp \
   MomentWise_autogen/UVLADIE3JM/moc_PomodoroController.cpp \
   MomentWise_autogen/UVLADIE3JM/moc_StatsStore.cpp \
   MomentWise_autogen/UVLADIE3JM/moc_TodoCardDelegate.cpp \
-  MomentWise_autogen/UVLADIE3JM/moc_TodoDueDelegate.cpp \
   MomentWise_autogen/UVLADIE3JM/moc_TodoModel.cpp \
   MomentWise_autogen/UVLADIE3JM/moc_TrayManager.cpp \
   MomentWise_autogen/YPKJ5OE7LN/moc_BottomNav.cpp \
   MomentWise_autogen/YPKJ5OE7LN/moc_BreathingRing.cpp \
-  MomentWise_autogen/YPKJ5OE7LN/moc_CustomStatusBar.cpp \
   MomentWise_autogen/YPKJ5OE7LN/moc_HeaderWidget.cpp
 
 CMakeFiles/MomentWise.dir/src/AppConfig.cpp.obj: D:/QtProject/MomentWise/src/AppConfig.cpp \
@@ -5752,6 +5746,9 @@ MomentWise_autogen/timestamp: D:/QtProject/MomentWise/CMakeLists.txt \
   D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake \
   D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake \
   D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
+  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake \
+  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake \
+  D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake \
   D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake \
   D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake \
   D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake \
@@ -5986,12 +5983,6 @@ D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits
 
 D:/QtProject/MomentWise/src/HotkeyManager_win.h:
 
-D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qatomic_cxx11.h:
-
-D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QComboBox:
-
-D:/QtProject/MomentWise/src/AudioRecorder.h:
-
 D:/QtProject/MomentWise/src/PomodoroController.h:
 
 D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/winapifamily.h:
@@ -6015,10 +6006,6 @@ D:/QtProject/MomentWise/src/StatsStore.h:
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iterator:
 
 D:/QtProject/MomentWise/src/TodoCardDelegate.h:
-
-D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/wincon.h:
-
-D:/QtProject/MomentWise/src/TodoDueDelegate.h:
 
 D:/QtProject/MomentWise/src/TodoModel.h:
 
@@ -6044,10 +6031,6 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qlocale.h:
 
 D:/QtProject/MomentWise/src/ui/BottomNav.h:
 
-D:/QtProject/MomentWise/src/ui/CustomStatusBar.h:
-
-D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QMap:
-
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qdebug.h:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_abs.h:
@@ -6068,6 +6051,14 @@ D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/string.h:
 
 D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/imm.h:
 
+D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWindowsAudioPlugin.cmake:
+
+D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeRCInformation.cmake:
+
+D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/_mingw.h:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qnumeric.h:
+
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractNativeEventFilter:
 
 D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/_mingw_print_pop.h:
@@ -6078,9 +6069,9 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QAbstractTableModel:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h:
 
-D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QVariant:
-
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qnamespace.h:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QVariant:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtGui/qpixmap.h:
 
@@ -6089,6 +6080,8 @@ D:/QtProject/MomentWise/src/TodoCardDelegate.cpp:
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QTimer:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QElapsedTimer:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QMap:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
 
@@ -6129,6 +6122,10 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qarraydata.h:
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qatomic.h:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qatomic_cxx11.h:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QComboBox:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/limits.h:
 
@@ -6200,6 +6197,8 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qhash.h:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
+D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake:
+
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/atomic_word.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qhashfunctions.h:
@@ -6217,14 +6216,6 @@ D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iosf
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/tuple:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qmap.h:
-
-D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWindowsAudioPlugin.cmake:
-
-D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeRCInformation.cmake:
-
-D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/_mingw.h:
-
-D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qnumeric.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qobject.h:
 
@@ -6526,11 +6517,11 @@ D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qrubberband.h:
 
-D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
+D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qsizepolicy.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QTableView:
 
-D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qsizepolicy.h:
+D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/variant:
 
@@ -6840,8 +6831,6 @@ MomentWise_autogen/UVLADIE3JM/moc_MainWindow.cpp:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h:
 
-MomentWise_autogen/UVLADIE3JM/moc_AudioRecorder.cpp:
-
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h:
 
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake:
@@ -6864,9 +6853,9 @@ D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:
 
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/chrono:
 
-D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QVBoxLayout:
-
 D:/download/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/clocale:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QVBoxLayout:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QMenu:
 
@@ -6952,9 +6941,7 @@ MomentWise_autogen/UVLADIE3JM/moc_StatsStore.cpp:
 
 D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/interlockedapi.h:
 
-D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake:
-
-MomentWise_autogen/UVLADIE3JM/moc_TodoDueDelegate.cpp:
+D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QStackedWidget:
 
 CMakeFiles/4.0.2/CMakeRCCompiler.cmake:
 
@@ -6967,8 +6954,6 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QCalendarWidget:
 MomentWise_autogen/YPKJ5OE7LN/moc_BottomNav.cpp:
 
 MomentWise_autogen/YPKJ5OE7LN/moc_BreathingRing.cpp:
-
-MomentWise_autogen/YPKJ5OE7LN/moc_CustomStatusBar.cpp:
 
 MomentWise_autogen/YPKJ5OE7LN/moc_HeaderWidget.cpp:
 
@@ -6991,6 +6976,8 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qfileinfo.h:
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QPushButton:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/quuid.h:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QToolButton:
 
 D:/QtProject/MomentWise/src/AppConfig.h:
 
@@ -7070,6 +7057,8 @@ D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/threadpoollegacyapiset
 
 D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/winbase.h:
 
+D:/download/Qt/Tools/mingw810_32/i686-w64-mingw32/include/wincon.h:
+
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QMessageBox:
@@ -7096,9 +7085,9 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtCore/qpropertyanimation.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtGui/QCloseEvent:
 
-D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QToolBar:
-
 D:/download/Qt/5.15.2/mingw81_32/include/QtGui/qpen.h:
+
+D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QToolBar:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtGui/qtextcursor.h:
 
@@ -7116,11 +7105,7 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QGroupBox:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QLabel:
 
-D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QStackedWidget:
-
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QTabWidget:
-
-D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/QToolButton:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractbutton.h:
 
@@ -7165,6 +7150,8 @@ D:/download/Qt/5.15.2/mingw81_32/include/QtWidgets/qtableview.h:
 D:/QtProject/MomentWise/src/MiniBallWidget.cpp:
 
 D:/QtProject/MomentWise/src/QuoteProvider.h:
+
+D:/QtProject/MomentWise/src/TodoDueDelegate.h:
 
 D:/download/Qt/5.15.2/mingw81_32/include/QtCore/QEasingCurve:
 
@@ -7254,6 +7241,8 @@ D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMak
 
 D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake:
 
+D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake:
+
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake:
 
 D:/download/Clion/CLion\ 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeParseArguments.cmake:
@@ -7315,6 +7304,10 @@ D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake:
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake:
 
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake:
+
+D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake:
+
+D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:
 
 D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake:
 

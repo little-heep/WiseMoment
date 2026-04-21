@@ -84,6 +84,10 @@
 		"D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake",
 		"D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake",
 		"D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake",
+		"D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake",
+		"D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake",
+		"D:/download/Qt/5.15.2/mingw81_32/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake",
+		"D:/download/Clion/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeParseArguments.cmake",
 		"D:/QtProject/MomentWise/resources/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/QtProject/MomentWise",
